@@ -1,0 +1,89 @@
+/* Add all your styles here */
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+}
+html{
+	font-family: sans-serif;
+}
+body{
+	height: 100vh;
+	background: #f0f0ff;
+}
+
+.card{
+	max-width: 400px;
+	height: auto;
+	padding: 10px;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0 .5em 1em #ccc;
+}
+
+.card img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.card-body .card-title{
+	font-weight: 1000;
+}
+.card-body .card-text{
+	font-weight: 300;
+}
+.card-body .comment{
+	font-weight: 1000;
+}
+.card-comment{
+	width: 100%;
+	height: 100%;
+	margin: 10px auto;
+	box-shadow: 0 .5em 1em #ccc;
+}
+
+.card-comment ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.card-comment ol li{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 8px;
+	border-bottom: 1px solid #ccc;
+}
+.card-comment ol li img{
+	width: 40px;
+	height: 40px;
+	margin: 8px;
+}
+.card-action{
+	display: flex;
+	flex-direction: row;
+}
+.card-action .avatar{
+	width: 40px;
+	height: 40px;
+}
+
+.card-action input{
+	width: 80%;
+	outline: none;
+	border: 1px solid #ccc;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.card-action button{
+	width: 20%;
+	background: #222;
+	border: none;
+	border-radius: 0 8px 8px 0;
+	color: #ccc;
+	font-weight: 1000;
+}
